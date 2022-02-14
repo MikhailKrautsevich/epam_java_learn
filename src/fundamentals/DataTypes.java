@@ -5,7 +5,9 @@ public class DataTypes {
     public static void main(String[] args) {
 //        testDouble();
 //        testInt();
-        testCompile();
+//        testCompile();
+//        test4();
+        test5();
     }
 
     static void testDouble() {
@@ -33,5 +35,16 @@ public class DataTypes {
 //        System.out.println((char[]) null);
         System.out.println((true?null:0));
         System.out.println((String)null);
+    }
+
+    static void test4(){
+        Byte b = new Byte("3");
+        System.out.println(b.floatValue() + " " + b.getClass().getName());
+    }
+
+    static void test5(){
+        Double d = Double.POSITIVE_INFINITY;
+        double d1 = d.intValue() + Double.NEGATIVE_INFINITY;
+        System.out.println(d1);
     }
 }
