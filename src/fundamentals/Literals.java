@@ -7,7 +7,7 @@ public class Literals {
         test4();
     }
 
-    private static void test1(){
+    private static void test1() {
 //        int var1 = 356f;
         double var2 = 356f;
         float var3 = 356f;

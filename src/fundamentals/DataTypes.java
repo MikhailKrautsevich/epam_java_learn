@@ -28,21 +28,21 @@ public class DataTypes {
         Integer i6 = new Integer("16");
     }
 
-    static void testCompile(){
+    static void testCompile() {
 //        System.out.println(new Integer(null));
 //        System.out.println(new String(null));
         System.out.println(new String("null"));
 //        System.out.println((char[]) null);
-        System.out.println((true?null:0));
-        System.out.println((String)null);
+        System.out.println((true ? null : 0));
+        System.out.println((String) null);
     }
 
-    static void test4(){
+    static void test4() {
         Byte b = new Byte("3");
         System.out.println(b.floatValue() + " " + b.getClass().getName());
     }
 
-    static void test5(){
+    static void test5() {
         Double d = Double.POSITIVE_INFINITY;
         double d1 = d.intValue() + Double.NEGATIVE_INFINITY;
         System.out.println(d1);
