@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.data_types;
 
 public class Arithmetic {
 
