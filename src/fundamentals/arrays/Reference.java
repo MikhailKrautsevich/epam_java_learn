@@ -8,7 +8,6 @@ public class Reference {
     }
 }
 
-
 class Example {
     static int[] arr;
 
